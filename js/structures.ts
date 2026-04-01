@@ -1,3 +1,4 @@
+// ############## START OF LISTS ##############
 // Linked List
 interface LinkedList<T> {
   get length(): number;
@@ -117,3 +118,18 @@ export class Stack<T> {
     return this.head?.value;
   }
 }
+
+// LinkedList - slow to get element by index
+// ArrayList - slow for delete/insert operations not in the end of the array
+
+// implement an async request queue in which only 3 request can be out at any one time
+// ⬆️I think using LinkedList is a good idea for this kinda situations ⬆️
+// cause at scale our deque and and enqueue will be constant all the time
+
+// ArrayList
+// TODO
+
+// RingBuffer
+// search more about it and try to implement it
+
+// ############## END OF LISTS ##############
